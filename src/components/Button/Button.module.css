@@ -1,0 +1,31 @@
+/* Button.module.css */
+
+.button {
+    background-color: rgb(255, 165, 0);
+    border: initial;
+    border-radius: 29px;
+    font-weight: 400;
+    font-style: normal;
+    transition: background-color 0.3s;
+    font-family: inherit;
+    color: var(--white-color);
+    cursor: pointer;
+}
+.small {
+    padding: 10px 25px;
+    font-size: 16px;
+}
+
+.big {
+    padding: 20px 60px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.accent {
+    background-color: var(--primary-color);
+}
+
+.accent:hover {
+    background-color: var(--primary-hover-color);
+}
