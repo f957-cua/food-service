@@ -1,6 +1,6 @@
 import Button from './components/Button/Button';
 import Input from './components/Input/Input'
-import Layout from './layouts/Menu/Menu';
+import Layout from './layouts/Menu/Layout';
 
 
 function App() {
